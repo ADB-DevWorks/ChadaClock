@@ -1,11 +1,4 @@
-/*
-    Adam Brawley
-    CS-210 Project One: Chada Clock
-    05/22/2026
-    Discription: A twelve and twenty-four hour clock
-                 User can add time from a menu and
-                 Both clocks are displayed side-by-side
-*/
+
 
 #include <iostream>
 #include <vector>

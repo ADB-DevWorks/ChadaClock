@@ -115,7 +115,7 @@ string TwelveHourDisplay(vector<int>& currentTime) {
 string TwentyFourHourDisplay(vector<int>& currentTime) {
 
     return string(25, '*') + "\n" + "*"
-        + string(3, ' ') + "24-Hour Clock" + string(3, ' ') + "    *" + "\n"
+        + string(3, ' ') + "24-Hour Clock" + string(3, ' ') + "   *" + "\n"
         + "*" + string(7, ' ') + TwoDigit(currentTime.at(0)) + ":" + TwoDigit(currentTime.at(1))
         + ":" + TwoDigit(currentTime.at(2)) + string(8, ' ') + "*" + "\n"
         + string(25, '*');
